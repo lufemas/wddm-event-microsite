@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'pixel_operator';
+  src: url('../img/ui/fonts/pixeloperator-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperator-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator';
+  src: url('../img/ui/fonts/pixeloperator-bold-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperator-bold-webfont.woff') format('woff');
+  font-weight: bold;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_hb';
+  src: url('../img/ui/fonts/pixeloperatorhb-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatorhb-webfont.woff') format('woff');
+  font-weight: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_hb_sc';
+  src: url('../img/ui/fonts/pixeloperatorhbsc-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatorhbsc-webfont.woff') format('woff');
+  font-weight: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_mono';
+  src: url('../img/ui/fonts/pixeloperatormono-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatormono-webfont.woff') format('woff');
+  font-weight: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_mono';
+  src: url('../img/ui/fonts/pixeloperatormono-bold-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatormono-bold-webfont.woff') format('woff');
+  font-weight: bold;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_mono_hb';
+  src: url('../img/ui/fonts/pixeloperatormonohb-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatormonohb-webfont.woff') format('woff');
+  font-weight: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_sc';
+  src: url('../img/ui/fonts/pixeloperatorsc-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatorsc-webfont.woff') format('woff');
+  font-weight: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'pixel_operator_sc';
+  src: url('../img/ui/fonts/pixeloperatorsc-bold-webfont.woff2') format('woff2'),
+       url('../img/ui/fonts/pixeloperatorsc-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
