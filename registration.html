@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>event-microsite</title>
+		<meta name="description" content="event-microsite">
+		<meta name="author" content="lufemas">
+		<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="./css/jr.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		
+		<header class="main-header jr flex-col ">
+			<nav class="jr raw-list h30 h-m-auto flex-col flex-m-row center between-m pl-1 pr-1 mt-1 mb-05">
+				<div  class="logo jr col-3 h100">
+					<span class="jr text-v-center"> I-CON</span>
+				</div>
+
+				
+				<ul class="jr raw-list flex-row between">
+					<li><a href="./index.html#info" class="jr button text-v-center link-raw p-0 pl-15 pr-15 h100 inline-block">INFO</a></li>
+					<li><a href="#ticket-1" class="jr button text-v-center link-raw ml-1  h100 p-0 pl-15 pr-15 inline-block" disabled>REGISTER</a></li>
+				</ul>
+			</nav>
+
+    </header>
+		
+		<main  class="registration-page jr p-3 ml-3 mr-3">
+			
+			<h1 class="jr flex-row around">
+				<span class="jr col-6">Select Your Ticket</span>
+				<span class="jr col-5">Payment Info</span>
+			</h1>
+
+			<form class="jr card flex-row around">
+
+				<div class="jr col-6 flex-col">
+
+					<input type="radio" name="ticket" id="ticket-1">
+
+					<label for="ticket-1" class="jr flex-row jr w100 card p-0">
+						<div class="jr card switch" ></div>
+						
+						<div class="jr col flex-row between ml-3 pl-3 mr-3 pr-3 " ><strong class="jr flex-col center">VIP</strong> <em class="jr flex-col center">$599</em></div>
+					
+						<div class="jr flex-row jr w100 card p-0 shadow"></div>
+
+					</label>
+					
+
+					<input type="radio" name="ticket" id="ticket-2">
+
+					<label for="ticket-2" class="jr flex-row jr w100 card p-0">
+						<div class="jr card switch" ></div>
+						<div class="jr col flex-row between ml-3 pl-3 mr-3 pr-3 " ><strong class="jr flex-col center">Full Access</strong> <em class="jr flex-col center">$299</em></div>
+						<div class="jr flex-row jr w100 card p-0 shadow"></div>
+					</label>
+
+					<input type="radio" name="ticket" id="ticket-3">
+
+					<label for="ticket-3" class="jr flex-row jr w100 card p-0">
+						<div class="jr card switch" ></div>
+						<div class="jr col flex-row between ml-3 pl-3 mr-3 pr-3 " ><strong class="jr flex-col center">Mult Day</strong> <em class="jr flex-col center">$150</em></div>
+						<div class="jr flex-row jr w100 card p-0 shadow"></div>
+					</label>
+
+					<input type="radio" name="ticket" id="ticket-4">
+
+					<label for="ticket-4" class="jr flex-row jr w100 card p-0">
+						<div class="jr card switch" ></div>
+						<div class="jr col flex-row between ml-3 pl-3 mr-3 pr-3 " ><strong class="jr flex-col center">Single Day</strong> <em class="jr flex-col center">$100</em></div>
+						<div class="jr flex-row jr w100 card p-0 shadow"></div>
+					</label>
+
+						
+					</label>
+				</div>
+
+				<div class="jr col-5 flex-col payment-info">
+
+					<label for="first-name"><strong>First Name</strong></label>
+					<input type="text" name="first-name" id="first-name">
+
+					<label class="jr mt-1" for="last-name"><strong>Last Name</strong></label>
+					<input type="text" name="last-name" id="last-name">
+
+					
+					<label class="jr mt-1" for="email"><strong>Email</strong></label>
+					<input type="email" name="email" id="email">
+
+					
+					<label class="jr mt-1" for="adress"><strong>Adress</strong></label>
+					<input type="text" name="adress" id="adress">
+
+					
+					<div class="jr flex-row between mt-1 mb-1">
+						
+						<div class="jr  col-4 flex-col">
+							<label for="postal-code"><strong>Postal Code</strong></label>
+							<input type="text" name="postal-code" id="postal-code">
+						</div>
+
+						<div class="jr col-75 flex-col">
+							<label for="phone-number"><strong>Phone Number</strong></label>
+							<input type="text" name="phone-number" id="phone-number">
+						</div>
+
+					</div>
+
+				</div>
+
+			</form>
+
+			<button class="jr w50 button p-l-05 mh-auto block mt-2">Buy Ticket</button>
+
+		</main>
+
+		
+		<footer class="jr mt-3 pt-15 pb-2">
+      <ul class="jr flex-col center p-0 ">
+        <li class="jr mt-05 text-center">This page uses <strong><a href="https://github.com/lufemas/jr-web-lib" target="_blank">JR.css</a></strong></li>
+        <li class="jr mt-05 text-center">Take a look on my other projects <strong><a href="https://github.com/lufemas" target="_blank">JR.Maschietto</a></strong></li>
+        <li class="jr mt-05 text-center">You can contact me on my web page <strong><a href="http://jrmaschietto.com" target="_blank">JRmaschietto.com</a></strong></li>
+      </ul>
+		</footer>
+		
+
+</body>
+</html>

@@ -14,36 +14,37 @@
 	</head>
 	<body>
 		
-		<header class="main-header jr flex-col mockup border h70">
-			<nav class="jr raw-list flex-row between mockup bg pl-1 pr-1">
-				<div  class="jr col-3 h100">
-					<img src="./img/GDC_Logo.svg" alt="GDC Logo" class="jr w-auto h100">
+		<header class="main-header jr flex-col h70 h-m-50">
+			<nav class="jr raw-list h30 h-m-auto flex-col flex-m-row center between-m pl-1 pr-1 mt-1 mb-05">
+				<div  class="logo jr col-3 h100">
+					<span class="jr text-v-center"> I-CON</span>
 				</div>
+
 				
 				<ul class="jr raw-list flex-row between">
-					<li><a href="#" class="jr button text-v-center link-raw h100 inline-block">INFO</a></li>
-					<li><a href="#" class="jr button text-v-center link-raw h100 inline-block">REGISTER</a></li>
+					<li><a href="#info" class="jr button text-v-center link-raw p-0 pl-15 pr-15 h100 inline-block">INFO</a></li>
+					<li><a href="./registration.html" class="jr button text-v-center link-raw ml-1  h100 p-0 pl-15 pr-15 inline-block">REGISTER</a></li>
 				</ul>
 			</nav>
 
-			<div class="jr flex-col center mockup border h100 hero">
-				<h1>GAME DEVELOPERS CONFERENCE</h1>
+			<div class="jr flex-col center text-center h100 hero">
+				<h1>INDIE GAME DEV CONFERENCE</h1>
 				<span>August 6 - 8</span>
 
-				<button class="jr button m-2">Register Now</button>
+				<a href="./registration.html" class="jr button m-2">Register Now</a>
 			</div>
 
 		</header>
 
-		<main class="jr h100">
+		<main class="jr main-home">
 
 			<article class="speakers jr flex-col">
-				<h2>SPEAKERS</h2>
+				<h2 class="jr ml-2">SPEAKERS</h2>
 				
-				<ul class="jr h100 flex-col flex-m-row between list-raw ">
+				<ul class="jr h100 flex-col flex-m-row between list-raw pl-1 pr-1 ">
 
 					<li class="jr p-1 col-m-4" >
-						<a href="./speakerpage.html" class="jr flex-m-col flex-l-row flex-l-wrap center mockup link-raw">
+						<a href="./speakerpage.html" class="jr flex-col flex-l-row flex-l-wrap  mockup link-raw">
 
 							<div class="jr col-l-4">
 								<img src="./img/speakers/jb-picture.jpg" alt="Jonathan Blow" class="jr img speaker-picture">
@@ -68,7 +69,7 @@
 				
 					
 					<li class="jr p-1 col-m-4" >
-						<a href="./speakerpage.html" class="jr flex-m-col flex-l-row flex-l-wrap center mockup link-raw">
+						<a href="./speakerpage.html" class="jr flex-col flex-l-row flex-l-wrap  mockup link-raw">
 
 							<div class="jr col-l-4">
 								<img src="./img/speakers/lufe-picture.jpg" alt="Jonathan Blow" class="jr img speaker-picture">
@@ -94,7 +95,7 @@
 					
 					
 					<li class="jr p-1 col-m-4" >
-						<a href="./speakerpage.html" class="jr flex-m-col flex-l-row flex-l-wrap center mockup link-raw">
+						<a href="./speakerpage.html" class="jr flex-col flex-l-row flex-l-wrap  mockup link-raw">
 
 							<div class="jr col-l-4">
 								<img src="./img/speakers/jv-picture.jpg" alt="Jonathan Blow" class="jr img speaker-picture">
@@ -118,9 +119,8 @@
 				</ul>
 			</article>
 
-
-			<article class="jr w80 mh-auto card mt-3 p-1">
-				<h2>About GCD</h2>
+			<article class="jr w80 mh-auto card mt-3 p-1" id="info">
+				<h2 class="jr mt-0">About I-CON</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto ea itaque unde dolore distinctio. Officia pariatur porro alias minima sed ullam corrupti dolor tenetur repudiandae aut. Blanditiis obcaecati reiciendis quod praesentium assumenda enim laboriosam veniam. Nulla inventore nam amet!</p>
 
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi pariatur temporibus facilis esse rerum quibusdam dolorem unde fuga? Quaerat eos eveniet animi ipsam excepturi ratione tempora deserunt in facere cum!</p>
@@ -130,10 +130,14 @@
 
 		</main>
 
-		<footer class="jr mt-1">
-			Some footer
+		<footer class="jr mt-3 pt-15 pb-2">
+      <ul class="jr flex-col center p-0">
+        <li class="jr mt-05 text-center">This page uses <strong><a href="https://github.com/lufemas/jr-web-lib" target="_blank">JR.css</a></strong></li>
+        <li class="jr mt-05 text-center">Take a look on my other projects <strong><a href="https://github.com/lufemas" target="_blank">JR.Maschietto</a></strong></li>
+        <li class="jr mt-05 text-center">You can contact me on my web page <strong><a href="http://jrmaschietto.com" target="_blank">JRmaschietto.com</a></strong></li>
+      </ul>
 		</footer>
-
+		
 		<script src="js/index.js"></script>
 	</body>
 </html>
