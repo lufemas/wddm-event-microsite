@@ -338,16 +338,7 @@ a:hover .speaker-picture{
   height: 8px;
   width: 16px;
 }
-
-.payment-info{
-  font-size: .75em;
-}
-
-.payment-info label{
-  font-size: 1.7em;
-}
-
-.payment-info input[type=radio]:checked + label .switch::after{
+.registration-page input[type=radio]:checked + label .switch::after{
   content: '';
   display: inline-block;
   background-color: var(--light);
@@ -357,6 +348,15 @@ a:hover .speaker-picture{
   height: 20px;
   width: 8px;
 }
+
+.payment-info{
+  font-size: .75em;
+}
+
+.payment-info label{
+  font-size: 1.7em;
+}
+
 
 .payment-info input{
   border: 13px solid;
